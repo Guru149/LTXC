@@ -5,6 +5,57 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".ltxc_login">
+    <RelativeLayout
+        android:id="@+id/imglayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="250dp"
+            android:scaleType="centerCrop"
+            android:layout_alignParentTop="true"
+            android:src="@drawable/bgm"
+            android:layout_centerHorizontal="true"
+            />
+
+    </RelativeLayout>
+
+
+    <com.google.android.material.tabs.TabLayout
+        android:layout_below="@+id/imglayout"
+        android:id="@+id/logintablayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true" />
+    <RelativeLayout
+        android:id="@+id/ralativelayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@+id/logintablayout"
+        android:layout_centerHorizontal="true">
+
+
+        <androidx.viewpager.widget.ViewPager
+            android:layout_centerHorizontal="true"
+            android:id="@+id/login_View_pager"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:text="LTXC"
+        android:textColor="#fff"
+        android:textSize="50sp"
+        android:textStyle="italic|bold" />
+
 
 
 </RelativeLayout>

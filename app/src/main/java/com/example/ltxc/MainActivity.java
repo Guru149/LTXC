@@ -28,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
         private  BottomNavigationView.OnNavigationItemSelectedListener navigationselected=new BottomNavigationView.OnNavigationItemSelectedListener() {
             @Override
             public boolean onNavigationItemSelected(@NonNull MenuItem item) {
-                Fragment selectedfragment=new ltxc_home();
+                Fragment selectedfragment=null;
                 switch (item.getItemId())
                 {
                     case R.id.home:

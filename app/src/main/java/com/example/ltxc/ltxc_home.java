@@ -20,7 +20,7 @@ public class ltxc_home extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
- View root=inflater.inflate(R.layout.fragment_ltxc_notification, container, false);
+ View root=inflater.inflate(R.layout.fragment_ltxc_home, container, false);
         adapter = new Homefragmentadapter(this.getActivity());
  return root;
     }

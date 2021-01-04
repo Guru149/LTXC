@@ -5,14 +5,11 @@
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".ltxc_home">
-    <com.denzcoskun.imageslider.ImageSlider
-        android:layout_width="match_parent"
-        android:layout_height="250dp"
-        android:id="@+id/img_slider"
-        app:iss_auto_cycle="true"
-        app:iss_period="500"
-        app:iss_selected_dot="@drawable/default_selected_dot"
-        app:iss_unselected_dot="@drawable/default_unselected_dot"
-        app:iss_delay="0"/>
-
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Home page"
+    android:textSize="20sp"
+    android:layout_centerHorizontal="true"
+    android:layout_centerVertical="true"/>
 </RelativeLayout>
