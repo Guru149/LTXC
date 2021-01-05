@@ -10,18 +10,19 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import com.denzcoskun.imageslider.ImageSlider;
+import com.denzcoskun.imageslider.constants.ScaleTypes;
 import com.denzcoskun.imageslider.models.SlideModel;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class ltxc_home extends Fragment {
-    ViewPager viewPager;
-    Homefragmentadapter adapter;
+
+
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
- View root=inflater.inflate(R.layout.fragment_ltxc_home, container, false);
-        adapter = new Homefragmentadapter(this.getActivity());
+ ViewGroup root=(ViewGroup) inflater.inflate(R.layout.fragment_ltxc_home, container, false);
  return root;
     }
 }
