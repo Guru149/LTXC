@@ -33,15 +33,19 @@ public class MainActivity extends AppCompatActivity {
                 {
                     case R.id.home:
                         selectedfragment= new ltxc_home();
+                        overridePendingTransition(0,0);
                         break;
                     case R.id.books:
                         selectedfragment=new ltxc_course();
+                        overridePendingTransition(0,0);
                         break;
                     case R.id.notification:
                         selectedfragment=new ltxc_notification();
+                        overridePendingTransition(0,0);
                         break;
                     case R.id.profile:
                         selectedfragment=new ltxc_profile();
+                        overridePendingTransition(0,0);
                         break;
                 }
                 getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container ,selectedfragment).commit();
