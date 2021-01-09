@@ -12,4 +12,7 @@
     <string name="new_user_register_now">New User? Register Now</string>
 
     </string>
+    <string name="about_us">About Us</string>
+    <string name="about_us_description">About us</string>
+    <string name="instractor_description">Instractor</string>
 </resources>

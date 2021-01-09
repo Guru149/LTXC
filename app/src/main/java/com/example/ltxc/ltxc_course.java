@@ -18,14 +18,6 @@ public class ltxc_course extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,Bundle savedInstanceState) {
 
        ViewGroup root =(ViewGroup) inflater.inflate(R.layout.fragment_ltxc_course, container, false);
-        CardView cardView = root.findViewById(R.id.about_us_card);
-        cardView.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent=new Intent(getActivity(),ltxc_login.class);
-                startActivity(intent);
-            }
-        });
         return root;
     }
 }
