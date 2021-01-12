@@ -4,7 +4,6 @@ import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
 
-import android.content.Intent;
 import android.os.Bundle;
 import android.view.MenuItem;
 
@@ -36,7 +35,7 @@ public class MainActivity extends AppCompatActivity {
                         overridePendingTransition(0,0);
                         break;
                     case R.id.books:
-                        selectedfragment=new ltxc_course();
+                        selectedfragment=new about_ltxc();
                         overridePendingTransition(0,0);
                         break;
                     case R.id.notification:
